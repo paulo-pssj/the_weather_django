@@ -6,7 +6,7 @@ import requests
 
 def index(request):
 
-    url = 'http://api.openweathermap.org/data/2.5/weather?q={}&units=metric&appid=4a81ab2e94c7b3ac2fdf1dea0e31c6d6'
+    url = 'http://api.openweathermap.org/data/2.5/weather?q={}&units=metric&appid=SUA API KEY'
 
     cities = City.objects.all()
 
